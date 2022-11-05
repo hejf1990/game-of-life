@@ -1,0 +1,65 @@
+.gameOfLife {
+    text-align: center;
+}
+
+
+.controls {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: calc(50% + 530px);
+    top: 100px;
+    width: 125px;
+}
+.button {
+    width: 100px;
+    margin: 10px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.generation {
+    margin: 10px;
+    line-height: 32px;
+    font-size: 16px;
+}
+.generationText {
+    font-size: 65px;
+    font-weight: 600;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 50px 0;
+    color: #07877b;
+}
+
+.panel {
+    position: relative;
+    margin: 0 auto;
+    background-color: #000;
+    border: 2px solid #888;
+    outline: 8px solid #222;
+    margin-bottom: 10px;
+    background-image:
+        linear-gradient(#333 1px, transparent 1px),
+        linear-gradient(90deg, #333 1px, transparent 1px);
+}
+.cell {
+    background: #ccc;
+    position: absolute;
+}
+.cycleTitle {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.cycleInput {
+    line-height: 32px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
